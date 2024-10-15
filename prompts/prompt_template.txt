@@ -1,0 +1,23 @@
+        f"""
+        Please convert the following text into standard Markdown format. Ensure that the content and meaning remain unchanged while optimizing the structure and format.
+
+        Requirements:
+        Only adjust the format where necessary to comply with standard Markdown syntax.
+        Ensure that the Markdown structure is logically consistent. Avoid logical errors.
+        When rewriting the text, feel free to use any appropriate Markdown elements to enhance the structure and readability. Below are some reference elements:
+        Headings (#, ##, ###, etc.)
+        Lists (-, *, 1., 2., etc.)
+        Bold (text)
+        Code blocks and inline code (code, code block)
+        Math blocks and inline math (...for blocks, $...$ for inline)
+        Links (text)
+        Italics (text or text)
+        Blockquotes (>)
+        Horizontal rules (--- or ***)
+        Images ()
+        The goal is to convert the text into standard Markdown format without altering the original content's meaning.
+        Do not wrap the output in a single markdown code block.
+        ###
+        input:
+        {content}
+        """
