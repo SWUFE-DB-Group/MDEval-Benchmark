@@ -8,7 +8,7 @@ from Levenshtein import distance
 
 client = OpenAI()
 
-MODELS = ["gpt-4o-mini-2024-07-18", "chatgpt-4o-latest"]
+MODELS = [ "chatgpt-4o-latest","claude-3-5-sonnet-20240620"]
 
 all_questions_output = {}
 
