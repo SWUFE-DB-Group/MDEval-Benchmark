@@ -14,7 +14,11 @@ We recommend using `virtualenv` to create an isolated virtual environment. Use t
 pip install -r requirements.txt
 ```
 
-Before using MDEval, make sure to set your API key as an environment variable. To simplify the process of calling multiple model APIs through a single interface, MDEval utilizes a third-party proxy. Normally, if you're not using a proxy and only set the OpenAI API key, you can only access models from OpenAI, like GPT-4 and GPT-4 Turbo. However, with the third-party proxy, you can access models from various providers, such as Google’s Gemini 1.5 Pro and Anthropic’s Claude 3.5 Sonnet, all through the same interface.
+Before using MDEval, make sure to set your API key as an environment variable. To simplify the process of calling multiple model APIs through a single interface. MDEval utilizes a third-party proxy, which allows users to  access models from various providers, such as Google’s Gemini 1.5 Pro and Anthropic’s Claude 3.5 Sonnet, all through the same interface.
+
+### API Reverse Proxy Server
+
+There are several companies in the market that offer third-party API reverse proxy services, which simplify the process of accessing multiple models. Users can call services from different providers through a unified interface. Notable providers include Zhizengzeng, No.1 API-Pro, Braintrust, and BerriAI, among others. These services enhance developer efficiency and streamline the integration process.
 ## 📂 Sample Data
 
 In the `data` folder, we provide partial data obtained through MDEval, while the `human_data` folder contains some human evaluation data. You can refer to the example script `md_eval.py` to understand how to obtain responses, rewrite them, and calculate scores for each model.
@@ -45,6 +49,3 @@ We randomly selected a subset of data from our overall dataset to display the te
 | **gpt-3.5-turbo**                 | 0.475             |
 | **baichuan2-13b-chat-v1**         | 0.164             |
 
-## 📬 Contact Us
-
-For further information or support, please contact us at [223081200004@smail.swufe.edu.cn].
