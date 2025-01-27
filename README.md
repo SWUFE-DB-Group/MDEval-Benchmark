@@ -14,15 +14,10 @@ We recommend using `virtualenv` to create an isolated virtual environment. Use t
 pip install -r requirements.txt
 ```
 
-Before using MDEval, make sure to set your API key as an environment variable. To simplify the process of calling multiple model APIs through a single interface. MDEval utilizes a third-party proxy, which allows users to  access models from various providers, such as Google’s Gemini 1.5 Pro and Anthropic’s Claude 3.5 Sonnet, all through the same interface.
-
-### API Reverse Proxy Server
-
-There are several companies in the market that offer third-party API reverse proxy services, which simplify the process of accessing multiple models. Users can call services from different providers through a unified interface. Notable providers include Zhizengzeng, No.1 API-Pro, Braintrust, and BerriAI, among others. These services enhance developer efficiency and streamline the integration process.
+Before using MDEval, ensure that you set your API key as an environment variable. To streamline the process of accessing multiple model APIs through a single interface, MDEval uses a third-party proxy, allowing users to interact with models from various providers, such as Google’s Gemini 1.5 Pro and Anthropic’s Claude 3.5 Sonnet, all through the same platform. Notable providers include Zhizengzeng ([https://zhizengzeng.com/](https://zhizengzeng.com/)), No.1 API-Pro ([https://api.rcouyi.com/](https://api.rcouyi.com/)), Braintrust, and BerriAI ([https://github.com/BerriAI/litellm](https://github.com/BerriAI/litellm)), among others. These services enhance developer productivity and simplify the integration process.
 ## 📂 Sample Data
 
 In the `data` folder, we provide partial data obtained through MDEval, while the `human_data` folder contains some human evaluation data. You can refer to the example script `md_eval.py` to understand how to obtain responses, rewrite them, and calculate scores for each model.
-
 
 ## 📈 Test Results
 
@@ -48,4 +43,11 @@ We randomly selected a subset of data from our overall dataset to display the te
 | **claude-3-5-sonnet-20240620**     | 0.566             |
 | **gpt-3.5-turbo**                 | 0.475             |
 | **baichuan2-13b-chat-v1**         | 0.164             |
+
+@inproceedings{chen2025mdeval,
+  title       = {MDEval: Evaluating and Enhancing Markdown Awareness in Large Language Models},
+  author      = {Chen, Zhongpu and Liu, Yinfeng and Shi, Long and Wang, Zhi-Jie and Chen, Xingyan and Zhao, Yu and Ren, Fuji},
+  booktitle   = {Proceedings of the ACM Web Conference 2025 (WWW '25)},
+  year        = {2025},
+}
 
