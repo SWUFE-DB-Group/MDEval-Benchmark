@@ -44,10 +44,13 @@ We randomly selected a subset of data from our overall dataset to display the te
 | **gpt-3.5-turbo**                 | 0.475             |
 | **baichuan2-13b-chat-v1**         | 0.164             |
 
+## 📖 bibtex
+
+```bibtex
 @inproceedings{chen2025mdeval,
   title       = {MDEval: Evaluating and Enhancing Markdown Awareness in Large Language Models},
   author      = {Chen, Zhongpu and Liu, Yinfeng and Shi, Long and Wang, Zhi-Jie and Chen, Xingyan and Zhao, Yu and Ren, Fuji},
   booktitle   = {Proceedings of the ACM Web Conference 2025 (WWW '25)},
   year        = {2025},
 }
-
+```
