@@ -47,10 +47,12 @@ We randomly selected a subset of data from our overall dataset to display the te
 ## 📖 bibtex
 
 ```bibtex
-@inproceedings{chen2025mdeval,
-  title       = {MDEval: Evaluating and Enhancing Markdown Awareness in Large Language Models},
-  author      = {Chen, Zhongpu and Liu, Yinfeng and Shi, Long and Wang, Zhi-Jie and Chen, Xingyan and Zhao, Yu and Ren, Fuji},
-  booktitle   = {Proceedings of the ACM Web Conference 2025 (WWW '25)},
-  year        = {2025},
+@inproceedings{
+chen2025mdeval,
+title={{MDE}val: Evaluating and Enhancing Markdown Awareness in Large Language Models},
+author={Zhongpu Chen and Yinfeng Liu and Long Shi and Zhi-Jie Wang and Xingyan Chen and Yu Zhao and Fuji Ren},
+booktitle={THE WEB CONFERENCE 2025},
+year={2025},
+url={https://openreview.net/forum?id=NPjUo4aeVf}
 }
 ```
