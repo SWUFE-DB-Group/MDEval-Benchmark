@@ -1,6 +1,6 @@
 # MDEval
 
-Welcome to **MDEval**! This is an innovative benchmark for evaluating the performance of large language model (LLM) chatbots in handling Markdown content. Our goal is to advance research and applications in Markdown Awareness for these models.
+Welcome to **MDEval**! This is an innovative benchmark for evaluating the performance of large language models (LLMs) chatbots in handling Markdown content. Our goal is to advance research and applications in Markdown Awareness for LLMs.
 
 ## 🚀 Human Evaluation Platform
 
@@ -14,7 +14,7 @@ We recommend using `virtualenv` to create an isolated virtual environment. Use t
 pip install -r requirements.txt
 ```
 
-Before using MDEval, ensure that you set your API key as an environment variable. To streamline the process of accessing multiple model APIs through a single interface, MDEval uses a third-party proxy, allowing users to interact with models from various providers, such as Google’s Gemini 1.5 Pro and Anthropic’s Claude 3.5 Sonnet, all through the same platform. Notable providers include Zhizengzeng ([https://zhizengzeng.com/](https://zhizengzeng.com/)), No.1 API-Pro ([https://api.rcouyi.com/](https://api.rcouyi.com/)), Braintrust, and BerriAI ([https://github.com/BerriAI/litellm](https://github.com/BerriAI/litellm)), among others. These services enhance developer productivity and simplify the integration process.
+Before using MDEval, ensure that you set your API key as an environment variable. To streamline the process of accessing multiple model APIs through a single interface, MDEval uses a third-party proxy, allowing users to interact with models from various providers, such as Google’s Gemini 1.5 Pro and Anthropic’s Claude 3.5 Sonnet, all through the same platform. Notable providers include [OpenRouter](https://openrouter.ai/), [Zhizengzeng](https://zhizengzeng.com/), and [No.1 API-Pro](https://api.rcouyi.com/). These services enhance developer productivity and simplify the integration process.
 ## 📂 Sample Data
 
 In the `data` folder, we provide partial data obtained through MDEval, while the `human_data` folder contains some human evaluation data. You can refer to the example script `md_eval.py` to understand how to obtain responses, rewrite them, and calculate scores for each model.
@@ -48,7 +48,7 @@ We randomly selected a subset of data from our overall dataset to display the te
 
 ```bibtex
 @inproceedings{chen2025mdeval,
-title={{MDE}val: Evaluating and Enhancing Markdown Awareness in Large Language Models},
+title={MDEval: Evaluating and Enhancing Markdown Awareness in Large Language Models},
 author={Zhongpu Chen and Yinfeng Liu and Long Shi and Zhi-Jie Wang and Xingyan Chen and Yu Zhao and Fuji Ren},
 booktitle={Proceedings of the ACM Web Conference},
 year={2025}
